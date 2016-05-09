@@ -8,8 +8,8 @@ public class main {
 	System.out.println(sc.snakeToCamelcase("abc"));
 	System.out.println(sc.snakeToCamelcase("abc_def"));
 	System.out.println(sc.snakeToCamelcase("abc_def_gh"));
-	//System.out.println(sc.snakeToCamelcase("abc__def___gf"));
-	//System.out.println(sc.snakeToCamelcase("_abc_def__"));
+	System.out.println(sc.snakeToCamelcase("abc__def___gf"));
+	System.out.println(sc.snakeToCamelcase("_abc_def__"));
 	
 	System.out.println(sc.camelToSnakecase("Abc"));
 	System.out.println(sc.camelToSnakecase("AbcDef"));
